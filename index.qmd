@@ -1,5 +1,6 @@
 ---
 title: personal-ragav.github.io
+jupyter: python3
 ---
 
 This is a Quarto website
