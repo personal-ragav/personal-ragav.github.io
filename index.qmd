@@ -1,6 +1,7 @@
 ---
 title: personal-ragav.github.io
 jupyter: python3
+output-file: _index.md
 ---
 
 This is a Quarto website
