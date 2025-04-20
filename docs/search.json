@@ -28,22 +28,11 @@
     "text": "Copyright © 2019, Encode OSS Ltd. All rights reserved.\nRedistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:\n\nRedistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.\nRedistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.\nNeither the name of the copyright holder nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.\n\nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS “AS IS” AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE."
   },
   {
-    "objectID": "bas-data-analy.html",
-    "href": "bas-data-analy.html",
-    "title": "Basic Data Analytics",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "index.qmd",
     "section": "",
-    "text": "Covers basic data analytics assignments from descriptive statistics to ensemble learning",
-    "crumbs": [
-      "Basic Data Analytics",
-      "Basic Data Analytics"
-    ]
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site"
+    "text": "This is a website that has a collection of all my data science assignments. All the implementations are currently in python. Implementations in Julia and R will come soon\nTo learn more about Quarto websites visit https://quarto.org/docs/websites"
   },
   {
     "objectID": "basic/desc-stats.html",
@@ -57,11 +46,22 @@
     ]
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "index.qmd",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
     "section": "",
-    "text": "This is a website that has a collection of all my data science assignments. All the implementations are currently in python. Implementations in Julia and R will come soon\nTo learn more about Quarto websites visit https://quarto.org/docs/websites"
+    "text": "About this site"
+  },
+  {
+    "objectID": "indices/bas-data-analy/bas-data-analy.html",
+    "href": "indices/bas-data-analy/bas-data-analy.html",
+    "title": "Basic Data Analytics",
+    "section": "",
+    "text": "Covers basic data analytics assignments from descriptive statistics to ensemble learning.\nsdsdsdsd",
+    "crumbs": [
+      "Basic Data Analytics",
+      "Basic Data Analytics"
+    ]
   },
   {
     "objectID": "Lib/site-packages/httpcore-1.0.8.dist-info/licenses/LICENSE.html",

@@ -8,7 +8,7 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - href: bas-data-analy.qmd
+      - href: indices/bas-data-analy/bas-data-analy.qmd
         text: Basic Data Analytics
       - about.qmd
 
@@ -22,7 +22,7 @@ website:
         - "---"
         - section: Basic Data Analytics
           contents:
-            - bas-data-analy.qmd
+            - indices/bas-data-analy/bas-data-analy.qmd
             - text: "descriptive stats"
               href: basic/desc-stats.qmd
         - "---"
