@@ -3,5 +3,3 @@ title: Basic Data Analytics
 ---
 
 Covers basic data analytics assignments from descriptive statistics to ensemble learning.
-
-sdsdsdsd
