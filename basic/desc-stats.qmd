@@ -1,0 +1,94 @@
+---
+title: "Descriptive Statistics"
+format:
+  html:
+    code-fold: false
+jupyter: python3
+---
+
+# Import Packages
+```{python}
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+from itables import show
+import os
+```
+
+# Import Packages
+```{python}
+dataset_path = os.path.join(os.getcwd(), "mtcars.csv")
+mtcars = pd.read_csv(dataset_path)
+show(mtcars, showIndex=False)
+```
+
+# 1. Find the car with the best mpg
+```{python}
+max_mpg = mtcars["mpg"].max()
+max_mpg_model = mtcars.loc[mtcars["mpg"] == max_mpg, 'model'].to_numpy()[0]
+
+print(str(max_mpg_model) + " model has the highest mpg of " + str(max_mpg))
+```
+
+# 2. Car with the worst mpg
+```{python}
+min_mpg = mtcars["mpg"].min()
+min_mpg_model = mtcars.loc[mtcars["mpg"] == min_mpg, 'model'].to_numpy()[0]
+
+print(str(min_mpg_model) + " model has the highest mpg of " + str(min_mpg))
+```
+
+# 3. Car with the worst horsepower
+```{python}
+min_hp = mtcars["hp"].min()
+min_hp_model = mtcars.loc[mtcars["hp"] == min_hp, 'model'].to_numpy()[0]
+
+print(str(min_hp_model) + " model has the highest mpg of " + str(min_hp))
+```
+
+# 4. 5-number summary of displacement
+```{python}
+mtcars["disp"].describe()
+```
+
+# 5. The median horse power
+```{python}
+print("The median horsepower = " + str(mtcars["hp"].median()))
+```
+
+# 6. The average mpg for manual and automatic cars
+```{python}
+mean_mpg_man = mtcars[mtcars["am"] == 1]['mpg'].mean()
+mean_mpg_auto = mtcars.loc[mtcars["am"] == 0, 'mpg'].mean()
+
+print("The average mpg of manual cars = " + str(mean_mpg_man))
+print("The average mpg of automatic cars = " + str(mean_mpg_auto))
+```
+
+# 7. Histogram of mpg
+```{python}
+sns.histplot(x='mpg', data=mtcars)
+```
+
+# 8. Boxplot of mpg
+```{python}
+sns.boxplot(x='cyl', y='mpg', data=mtcars)
+```
+
+# 9. Crossstab of count of manual and automatic cars
+```{python}
+df = pd.crosstab(mtcars["am"] == 1, mtcars["am"] == 0)
+show(df)
+```
+
+# 10. Crosstab of count of gear and cylinder
+```{python}
+df = pd.crosstab(mtcars["am"],mtcars["cyl"])
+show(df)
+```
+# 11. Correlation between weight of the car and mpg
+```{python}
+corr = round(mtcars["wt"].corr(mtcars["mpg"]), ndigits=3)
+print('There is has a strong negative correlation of ' + str(corr) +'. As the weight of the cars increases, mpg decreases')
+```
