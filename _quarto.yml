@@ -3,13 +3,29 @@ project:
   output-dir: docs
 
 website:
-  title: "Enter"
+  title: "DataDir"
   navbar:
     left:
-      - text: Home
-        href: index.qmd
-      - text: About
-        href: about.qmd
+      - href: index.qmd
+        text: Home
+      - href: bas-data-analy.qmd
+        text: Basic Data Analytics
+      - about.qmd
+
+  sidebar:
+    - id: bas-data-analy
+      title: "Basic Data Analytics"
+      style: "floating"
+      collapse-level: 2
+      align: left
+      contents:
+        - "---"
+        - section: Basic Data Analytics
+          contents:
+            - bas-data-analy.qmd
+            - text: "descriptive stats"
+              href: basic/desc-stats.qmd
+        - "---"
 
 format:
   html:
