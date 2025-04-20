@@ -1,5 +1,5 @@
 ---
-title: personal-ragav.github.io
+title: index.qmd
 jupyter: python3
 ---
 
